@@ -2,7 +2,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 # -------- SETTINGS --------
-WARNING_TIME = 10
+WARNING_TIME = 60
 paused = False
 current_time = 0
 blink_state = True
@@ -67,7 +67,7 @@ def countdown():
 def blink_warning():
     global blink_state
     if blink_state:
-        warning_label.config(text="⚠ WARNING: Time is almost up", fg="red")
+        warning_label.config(text="⚠ WARNING: Time's almost up", fg="red")
     else:
         warning_label.config(text="", fg="yellow")
 
@@ -130,7 +130,7 @@ root.bind("<Escape>", reset_app)
 # -------- INPUT SCREEN --------
 input_frame = tk.Frame(root, bg="black")
 
-entry = tk.Entry(input_frame, font=("Arial", 20), justify="center")
+entry = tk.Entry(input_frame, font=("Arial", 40), justify="center")
 entry.pack(pady=20)
 
 hint = tk.Label(
@@ -147,11 +147,11 @@ selected_person.set("Pastor")
 
 options = ["Pastor", "Choir", "Praise Team", "Custom"]
 dropdown = tk.OptionMenu(input_frame, selected_person, *options)
-dropdown.config(font=("Arial", 14))
+dropdown.config(font=("Arial", 40))
 dropdown.pack(pady=10)
 
 # Custom entry
-custom_entry = tk.Entry(input_frame, font=("Arial", 14), justify="center")
+custom_entry = tk.Entry(input_frame, font=("Arial", 30), justify="center")
 selected_person.trace("w", check_custom)
 
 # -------- NEXT PROGRAM INPUT --------
@@ -163,14 +163,14 @@ next_label = tk.Label(
 )
 next_label.pack(pady=(10, 0))
 
-next_entry = tk.Entry(input_frame, font=("Arial", 14), justify="center")
+next_entry = tk.Entry(input_frame, font=("Arial", 50), justify="center")
 next_entry.pack(pady=5)
 
 # Start button
 start_btn = tk.Button(
     input_frame,
     text="Start Timer",
-    font=("Arial", 14),
+    font=("Arial", 20),
     command=start_timer
 )
 start_btn.pack(pady=10)
@@ -181,7 +181,7 @@ timer_frame = tk.Frame(root, bg="black")
 timer_label = tk.Label(
     timer_frame,
     text="00:00",
-    font=("Arial", 90),
+    font=("Arial", 120),
     fg="white",
     bg="black"
 )
@@ -190,7 +190,7 @@ timer_label.pack(expand=True)
 warning_label = tk.Label(
     timer_frame,
     text="",
-    font=("Arial", 30),
+    font=("Arial", 70),
     bg="black"
 )
 warning_label.pack()
@@ -199,7 +199,7 @@ warning_label.pack()
 next_program_label = tk.Label(
     timer_frame,
     text="",
-    font=("Arial", 25),
+    font=("Arial", 60),
     fg="cyan",
     bg="black"
 )
@@ -216,8 +216,8 @@ end_frame = tk.Frame(root, bg="red")
 
 end_label = tk.Label(
     end_frame,
-    text="TIME's UP",
-    font=("Arial", 80),
+    text="TIME'S UP",
+    font=("Arial", 100),
     fg="white",
     bg="red"
 )
