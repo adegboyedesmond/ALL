@@ -1,0 +1,12 @@
+{
+  "admin": {
+    "username": "admin",
+    "password_hash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "role": "admin",
+    "full_name": "System Administrator",
+    "email": "admin@supermarket.com",
+    "phone": "0000000000",
+    "created_at": "2026-04-07T16:21:41.771968",
+    "is_active": true
+  }
+}

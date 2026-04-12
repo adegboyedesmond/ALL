@@ -1,0 +1,31 @@
+{
+  "conversations": [
+    {
+      "timestamp": "2026-03-28T05:06:12.162394",
+      "input": "hello",
+      "response": "Welcome back. What are we working on?",
+      "intent": "greeting"
+    },
+    {
+      "timestamp": "2026-03-28T05:07:00.236273",
+      "input": "i am workig o uildig a site",
+      "response": "I'm not sure I understand. Could you rephrase that?",
+      "intent": "conversation"
+    },
+    {
+      "timestamp": "2026-03-28T05:07:07.053330",
+      "input": "okay",
+      "response": "I'm still learning. Could you be more specific about what you'd like me to do?",
+      "intent": "conversation"
+    },
+    {
+      "timestamp": "2026-03-28T05:07:12.131935",
+      "input": "okay",
+      "response": "I'm not sure I understand. Could you rephrase that?",
+      "intent": "conversation"
+    }
+  ],
+  "facts": {},
+  "user_preferences": {},
+  "tasks": []
+}

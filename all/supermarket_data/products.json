@@ -1,0 +1,112 @@
+{
+  "PRD85416": {
+    "id": "PRD85416",
+    "name": "Apples",
+    "category": "Produce",
+    "price": 2.99,
+    "stock": 150,
+    "barcode": "8744196803925",
+    "expiry_date": "2026-12-31",
+    "discount_percent": 0,
+    "tax_rate": 0.08
+  },
+  "PRD34410": {
+    "id": "PRD34410",
+    "name": "Milk 1L",
+    "category": "Dairy",
+    "price": 3.49,
+    "stock": 80,
+    "barcode": "8346624926381",
+    "expiry_date": "2026-06-15",
+    "discount_percent": 0,
+    "tax_rate": 0.08
+  },
+  "PRD10505": {
+    "id": "PRD10505",
+    "name": "Bread",
+    "category": "Bakery",
+    "price": 2.79,
+    "stock": 45,
+    "barcode": "8281912380408",
+    "expiry_date": "2026-04-10",
+    "discount_percent": 0,
+    "tax_rate": 0.08
+  },
+  "PRD60548": {
+    "id": "PRD60548",
+    "name": "Chicken Breast",
+    "category": "Meat",
+    "price": 8.99,
+    "stock": 60,
+    "barcode": "8454312168386",
+    "expiry_date": "2026-04-08",
+    "discount_percent": 0,
+    "tax_rate": 0.08
+  },
+  "PRD76026": {
+    "id": "PRD76026",
+    "name": "Rice 5kg",
+    "category": "Pantry",
+    "price": 12.99,
+    "stock": 100,
+    "barcode": "8533780013311",
+    "expiry_date": null,
+    "discount_percent": 0,
+    "tax_rate": 0.08
+  },
+  "PRD42774": {
+    "id": "PRD42774",
+    "name": "Orange Juice",
+    "category": "Beverages",
+    "price": 4.29,
+    "stock": 75,
+    "barcode": "8630834958718",
+    "expiry_date": "2026-08-01",
+    "discount_percent": 0,
+    "tax_rate": 0.08
+  },
+  "PRD49469": {
+    "id": "PRD49469",
+    "name": "Toilet Paper",
+    "category": "Household",
+    "price": 6.99,
+    "stock": 200,
+    "barcode": "8515007886166",
+    "expiry_date": null,
+    "discount_percent": 0,
+    "tax_rate": 0.08
+  },
+  "PRD17830": {
+    "id": "PRD17830",
+    "name": "Shampoo",
+    "category": "Personal Care",
+    "price": 5.49,
+    "stock": 90,
+    "barcode": "8692577934601",
+    "expiry_date": null,
+    "discount_percent": 0,
+    "tax_rate": 0.08
+  },
+  "PRD12162": {
+    "id": "PRD12162",
+    "name": "Frozen Pizza",
+    "category": "Frozen",
+    "price": 7.99,
+    "stock": 120,
+    "barcode": "8159577325829",
+    "expiry_date": "2026-11-01",
+    "discount_percent": 0,
+    "tax_rate": 0.08
+  },
+  "PRD54120": {
+    "id": "PRD54120",
+    "name": "AA Batteries",
+    "category": "Electronics",
+    "price": 4.99,
+    "stock": 300,
+    "barcode": "8275165485065",
+    "expiry_date": null,
+    "discount_percent": 0,
+    "tax_rate": 0.08
+  }
+}
